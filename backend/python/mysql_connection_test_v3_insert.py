@@ -18,7 +18,24 @@ VALUES (%s)
 """
 
 data = [
-    ('Polo Highline 2024',), ('Onix 2025',), ('Fit 2015',), ('Palio 2012',)
+    ["Mazda 3"],
+    ["Nissan Leaf"],
+    ["Ford Focus"],
+    ["Chevrolet Cruze"],
+    ["Volkswagen Golf"],
+    ["Hyundai Elantra"],
+    ["Kia Rio"],
+    ["Renault Clio"],
+    ["Peugeot 208"],
+    ["Fiat Argo"],
+    ["Mitsubishi Lancer"],
+    ["Subaru Impreza"],
+    ["BMW 3 Series"],
+    ["Mercedes-Benz C-Class"],
+    ["Audi A4"],
+    ["Volvo S60"],
+    ["Tesla Model 3"],
+    ["Toyota Yaris"]
     ]
 
 cur.executemany(sql, data)
