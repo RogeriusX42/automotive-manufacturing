@@ -8,6 +8,4 @@ cn = mysql.connector.connect(
     port=3306
 )
 
-print("Connected: ", cn.is_connected())
-
 cn.close()
