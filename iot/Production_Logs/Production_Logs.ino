@@ -9,5 +9,5 @@ void loop() {
   Serial.print(productID);
   Serial.print(",");
   Serial.println(quality);
-  delay(250);
+  delay(1250);
 }

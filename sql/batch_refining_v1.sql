@@ -40,3 +40,7 @@ SELECT
 FROM batch as b 
 INNER JOIN products AS p 
 ON b.product_id = p.product_id;
+
+
+ALTER TABLE batch ADD COLUMN timeframe VARCHAR(255); 
+
