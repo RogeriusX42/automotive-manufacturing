@@ -4,8 +4,10 @@ void setup() {
 }
 
 void loop() {
-  int productID = random(00, 29); // Simulated product IDs
-  int quality = random(40, 100);      // Quality percentage
+  int vendorID = random(00, 30); // Simulated product IDs
+  int rawMaterialID = random(00, 10); 
+  double value = random(50, 10000);      // Quality percentage
+  
   Serial.print(productID);
   Serial.print(",");
   Serial.println(quality);
